@@ -1,0 +1,25 @@
+<p-card class="add-trade-container" [style]="{ width: '500px' }">
+    <h2>Place an Order</h2>
+    <form (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <label for="stockTicker">Stock Ticker</label>
+            <input pInputText type="text" id="stockTicker" name="stockTicker" [(ngModel)]="trade.stockTicker" required (change)="onStockTickerChange($event)">
+        </div>
+        <div class="form-group">
+            <label for="stockPrice">Stock Price</label>
+            <input pInputText type="text" id="stockPrice" name="stockPrice" [(ngModel)]="trade.stockPrice" required>
+        </div>
+        <div class="form-group">
+            <label for="volume">Volume</label>
+            <input pInputText type="text" id="volume" name="volume" [(ngModel)]="trade.volume" required>
+        </div>
+        <div class="form-group">
+            <label for="buyOrSell">Buy/Sell</label>
+            <select id="buyOrSell" name="buyOrSell" [(ngModel)]="trade.buyOrSell" >
+                <option value="BUY">BUY</option>
+                <option value="SELL">SELL</option>
+            </select>
+        </div>
+        <p-button label="Place an Order" type="submit"></p-button>
+    </form>
+</p-card>

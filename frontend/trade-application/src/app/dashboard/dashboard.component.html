@@ -1,0 +1,24 @@
+<div class="home-container">
+    <h1>Welcome to Portfolio Management Application</h1>
+    <p>Explore user profiles and trade history.</p>
+    
+    <div class="insights-container">
+        <p-card header="Total Users" subheader="{{ totalUsers }} users registered" [style]="{ width: '300px' }">
+            <ng-template pTemplate="header">
+                <img alt="Card" src="https://cdn.pixabay.com/photo/2016/04/15/18/05/computer-1331579_1280.png" [style]="{ width: '200px' }"/>
+            </ng-template>
+            <ng-template pTemplate="footer">
+                <p-button label="View Users" routerLink="/users"></p-button>
+            </ng-template>
+        </p-card>
+
+        <p-card header="Total Trades" subheader="{{ totalTrades }} trades recorded" [style]="{ width: '300px' }">
+            <ng-template pTemplate="header">
+                <img alt="Card" src="https://cdn.pixabay.com/photo/2018/01/12/16/16/growth-3078543_1280.png" />
+            </ng-template>
+            <ng-template pTemplate="footer">
+                <p-button pRipple label="View Trades" styleClass="p-button-secondary" routerLink="/trades"></p-button>
+            </ng-template>
+        </p-card>
+    </div>
+</div>

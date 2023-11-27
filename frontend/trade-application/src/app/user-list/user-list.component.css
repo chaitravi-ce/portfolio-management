@@ -1,0 +1,28 @@
+.user-list-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+body{
+    font-family: --var(--font-family);
+}
+
+h1{
+    text-align: center;
+}
+
+td{
+    text-align: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+
+.table{
+    border-radius: 30px;
+}

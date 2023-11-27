@@ -1,0 +1,135 @@
+{
+  "username": "alice_smith",
+  "name": "Alice Smith",
+  "tradeList": [
+    {
+      "stockTicker": "AAPL",
+      "stockPrice": 150.25,
+      "volume": 100,
+      "buyOrSell": "buy",
+      "statusCode": 1
+    },
+    {
+      "stockTicker": "GOOG",
+      "stockPrice": 2800.50,
+      "volume": 50,
+      "buyOrSell": "sell",
+      "statusCode": 2
+    }
+  ]
+}
+
+
+
+{
+  "username": "bob_jones",
+  "name": "Bob Jones",
+  "tradeList": [
+    {
+      "stockTicker": "TSLA",
+      "stockPrice": 700.75,
+      "volume": 75,
+      "buyOrSell": "buy",
+      "statusCode": 1
+    },
+    {
+      "stockTicker": "AMZN",
+      "stockPrice": 3500.00,
+      "volume": 25,
+      "buyOrSell": "sell",
+      "statusCode": 2
+    }
+  ]
+}
+
+
+
+{
+  "username": "emily_davis",
+  "name": "Emily Davis",
+  "tradeList": [
+    {
+      "stockTicker": "MSFT",
+      "stockPrice": 300.50,
+      "volume": 150,
+      "buyOrSell": "buy",
+      "statusCode": 1
+    },
+    {
+      "stockTicker": "AAPL",
+      "stockPrice": 160.00,
+      "volume": 80,
+      "buyOrSell": "buy",
+      "statusCode": 1
+    }
+  ]
+}
+
+
+
+{
+  "username": "james_wilson",
+  "name": "James Wilson",
+  "tradeList": [
+    {
+      "stockTicker": "GOOG",
+      "stockPrice": 2900.75,
+      "volume": 60,
+      "buyOrSell": "buy",
+      "statusCode": 1
+    },
+    {
+      "stockTicker": "TSLA",
+      "stockPrice": 750.00,
+      "volume": 40,
+      "buyOrSell": "sell",
+      "statusCode": 2
+    }
+  ]
+}
+
+
+
+{
+  "username": "linda_anderson",
+  "name": "Linda Anderson",
+  "tradeList": [
+    {
+      "stockTicker": "AMZN",
+      "stockPrice": 3400.25,
+      "volume": 30,
+      "buyOrSell": "sell",
+      "statusCode": 2
+    },
+    {
+      "stockTicker": "MSFT",
+      "stockPrice": 305.00,
+      "volume": 100,
+      "buyOrSell": "buy",
+      "statusCode": 1
+    }
+  ]
+}
+
+
+
+{
+  "username": "michael_clark",
+  "name": "Michael Clark",
+  "tradeList": [
+    {
+      "stockTicker": "AAPL",
+      "stockPrice": 155.50,
+      "volume": 120,
+      "buyOrSell": "buy",
+      "statusCode": 1
+    },
+    {
+      "stockTicker": "TSLA",
+      "stockPrice": 780.00,
+      "volume": 50,
+      "buyOrSell": "buy",
+      "statusCode": 1
+    }
+  ]
+}

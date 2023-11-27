@@ -1,0 +1,35 @@
+.stock-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    /* From https://css.glass */
+    background: rgba(101, 121, 132, 0.38);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.7px);
+    -webkit-backdrop-filter: blur(3.7px);
+    border: 1px solid rgba(101, 121, 132, 0.24);
+}
+
+.stock-meta {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.stock-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card-main {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 95%;
+    margin: 2.5%;
+    padding-bottom: 5%;
+    justify-self: center,
+}

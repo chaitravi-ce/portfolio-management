@@ -1,0 +1,21 @@
+body {
+    font-family: var(--font-family);
+}
+
+.home-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.insights-container {
+    display: flex;
+    justify-content: center;
+}
+
+p-card {
+    margin: 30px;
+    border-radius: 35px;
+    background: #09242f;
+    box-shadow: 15px 15px 30px #171717,
+        -15px -15px 30px #090909;
+}

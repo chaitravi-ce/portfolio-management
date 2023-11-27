@@ -1,0 +1,17 @@
+<p-card [style]="{ width: '95%' }" class="card-main">
+    <div class="stock-container">
+        <div class="stock-meta">
+            <h1>{{ stockDetail.meta.symbol }} Stock</h1>
+            <p><strong>Currency:</strong> {{ stockDetail.meta.currency }}</p>
+            <p><strong>Exchange Timezone:</strong> {{ stockDetail.meta.exchange_timezone }}</p>
+            <p><strong>Exchange:</strong> {{ stockDetail.meta.exchange }}</p>
+            <p><strong>Type:</strong> {{ stockDetail.meta.type }}</p>
+        </div>
+    </div>
+    <div class="card">
+        <p-chart type="line" [data]="data" [options]="options"></p-chart>
+    </div>
+    <div class="card">
+        <p-chart type="line" [data]="second_data" [options]="options"></p-chart>
+    </div>
+</p-card>

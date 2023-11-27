@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.portfolio.restapi"},{"l":"com.portfolio.restapi.controllers"},{"l":"com.portfolio.restapi.entities"},{"l":"com.portfolio.restapi.repositories"},{"l":"com.portfolio.restapi.services"}];updateSearchResults();

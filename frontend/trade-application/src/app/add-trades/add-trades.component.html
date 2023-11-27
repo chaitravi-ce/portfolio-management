@@ -1,0 +1,23 @@
+<p>add-trades works!</p>
+<h2>Add Trades</h2>
+<form [formGroup]="addtradesForm" (submit)="handleSubmit()"  >
+    <br>
+    <label>stockTicker</label>
+    <input id="stockTicker" type="text" formControlName="stockTicker">
+    <label>stockPrice</label>
+    <input id="stockPrice" type="text" formControlName="stockPrice">
+    <label>volume</label>
+    <input id="volume" type="text" formControlName="volume">
+    
+    <label>buyOrSell</label>
+    <input id="buyOrSell" type="text" formControlName="buyOrSellgit">
+    
+    <br>
+    
+    
+    <br>
+    <label>Email</label>
+    <input id="email" type="email" formControlName="email">
+    <br>
+    <button type="submit">submit</button>
+</form>

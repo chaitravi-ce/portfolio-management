@@ -1,0 +1,14 @@
+<p-card class="add-trade-container" [style]="{ width: '500px' }">
+    <h2>Add User</h2>
+    <form (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <label for="stockTicker">Name</label>
+            <input pInputText type="text" id="stockTicker" name="stockTicker" [(ngModel)]="user.name" required>
+        </div>
+        <div class="form-group">
+            <label for="stockPrice">Username</label>
+            <input pInputText type="text" id="stockPrice" name="stockPrice" [(ngModel)]="user.username" required>
+        </div>
+        <p-button label="Add User" type="submit" class="btn"></p-button>
+    </form>
+</p-card>

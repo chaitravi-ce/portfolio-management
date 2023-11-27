@@ -1,0 +1,41 @@
+<p-card [style]="{ width: '50%' }" class="card">
+    <div class="user-card">
+        <div class="user-details">
+            <div class="avatar">
+                <p-avatar icon="pi pi-user" styleClass="mr-2" size="xlarge" shape="circle"
+                    [style]="{ 'background-color': '#9eade6', color: '#000' }"></p-avatar>
+            </div>
+            <div class="user-info">
+                <h3>{{ user.name }}</h3>
+                <p>Username: {{ user.username }}</p>
+            </div>
+        </div>
+        <div class="btn">
+            <p-button class="user-button" (onClick)="navigateToAddTrade(user.id)" icon="pi pi-plus"></p-button>
+            <p-button class="user-button" (onClick)="navigateToTradeHistory(user.id)" icon="pi pi-search"></p-button>
+        </div>
+    </div>
+    
+
+    <p-table [columns]="cols" [value]="user.stocks" [tableStyle]="{ 'min-width': '40rem' }">
+        <ng-template pTemplate="header" let-columns>
+            <tr>
+                <th *ngFor="let col of columns">
+                    {{ col.header }}
+                </th>
+                <th></th>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-rowData let-columns="columns">
+            <tr>
+                <td *ngFor="let col of columns">
+                    {{ rowData[col.field] }}
+                </td>
+                <td>
+                    <p-button (onClick)="navigateToStockProfile(user.id, rowData['stockTicker'])">View</p-button>
+                </td>
+            </tr>
+        </ng-template>
+    </p-table>
+    
+</p-card>

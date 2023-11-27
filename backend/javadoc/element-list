@@ -1,0 +1,5 @@
+com.portfolio.restapi
+com.portfolio.restapi.controllers
+com.portfolio.restapi.entities
+com.portfolio.restapi.repositories
+com.portfolio.restapi.services
